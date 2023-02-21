@@ -1,7 +1,7 @@
 ---
 id: setup-docusaurus
 slug: /setup-docusaurus
-title: Setup Docusaurus
+title: PyTabular | Docusaurus
 description: Install Docusaurus Locally
 sidebar_position: 2
 tags:

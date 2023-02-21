@@ -2,7 +2,7 @@
 id: getting-started
 slug: /
 title: Getting Starting
-description: Create a doc page with rich content with PyTabular and Power BI datesets.
+description: Create a doc page with rich content with PyTabular and Power BI datasets.
 sidebar_position: 1
 tags:
   - PyTabular

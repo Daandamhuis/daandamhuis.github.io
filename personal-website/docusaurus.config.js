@@ -1,30 +1,32 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Daan Damhuis',
-  tagline: 'Data, Power BI, Python and more...',
-  url: 'https://www.daandamhuis.nl',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  title: "Daan Damhuis",
+  tagline: "Data, Power BI, Python and more...",
+  url: "https://www.daandamhuis.nl",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'daandamhuis', // Usually your GitHub org/user name.
-  projectName: 'daandamhuis.github.io', // Usually your repo name.
+  organizationName: "daandamhuis", // Usually your GitHub org/user name.
+  projectName: "daandamhuis.github.io", // Usually your repo name.
+  deploymentBranch: "gh-pages",
+  trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
   plugins: [
     async function myPlugin(context, options) {
@@ -42,7 +44,7 @@ const config = {
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
@@ -58,7 +60,7 @@ const config = {
           //editUrl: 'https://github.com/daandamhuis/daandamhuis.github.io/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -68,13 +70,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Daan Damhuis',
+        title: "Daan Damhuis",
         logo: {
-          alt: 'Daan Damhuis',
-          src: 'img/logo.png',
+          alt: "Daan Damhuis",
+          src: "img/logo.png",
         },
         items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: "/blog", label: "Blog", position: "left" },
           {
             type: "doc",
             docId: "getting-started",
@@ -82,48 +84,48 @@ const config = {
             label: "Adventure Works",
           },
           {
-            href: 'https://linkedin.com/in/daandamhuis/',
-            label: 'LinkedIn',
-            position: 'right',
+            href: "https://linkedin.com/in/daandamhuis/",
+            label: "LinkedIn",
+            position: "right",
           },
-          {to: '/who-am-i', label: 'About Me', position: 'left'},
+          { to: "/who-am-i", label: "About Me", position: "left" },
           {
-            href: 'https://github.com/daandamhuis/',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/daandamhuis/",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: "Stack Overflow",
+                href: "https://stackoverflow.com/questions/tagged/docusaurus",
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: "Discord",
+                href: "https://discordapp.com/invite/docusaurus",
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: "Twitter",
+                href: "https://twitter.com/docusaurus",
               },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: "Blog",
+                to: "/blog",
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: "GitHub",
+                href: "https://github.com/facebook/docusaurus",
               },
             ],
           },
@@ -133,7 +135,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['dax', 'powerquery', 'sql'],
+        additionalLanguages: ["dax", "powerquery", "sql"],
       },
     }),
 };
