@@ -1,9 +1,14 @@
 /**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
+* CSS files with the .module.css suffix will be treated as CSS modules
+* and scoped locally.
+*/
 
-.container:before {
+
+.bg-wrapper { 
+  position: relative;
+}
+
+.bg-wrapper:before {
   content: " ";
   display: block;
   position: absolute;
@@ -16,10 +21,6 @@
   background-repeat: no-repeat;
   background-position: 100% 0;
   background-size: cover;
-}
-
-.container { 
-  position: relative;
 }
 
 .heroBanner {
