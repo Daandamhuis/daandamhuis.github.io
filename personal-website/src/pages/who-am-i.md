@@ -6,7 +6,7 @@ slug: who-am-i
 # Daan Damhuis
 
 ### 📑 Summary 
-I am a seasoned Business Intelligence Consultant with many years of experience in Microsoft Stack. Passionate about data and its potential to drive business success, I excel in data analysis, visualization, and machine learning. With a proven track record of delivering effective BI solutions to clients, I am constantly seeking new challenges and opportunities to grow in my field. My ambition is to take on a leadership role as Head of Analytics and Reporting.
+I am a Business Intelligence Consultant with many years of experience in Microsoft Stack. Passionate about data and its potential to drive business success, I excel in data analysis, visualization, and machine learning. With a proven track record of delivering effective BI solutions to clients, I am constantly seeking new challenges and opportunities to grow in my field. My ambition is to take on a leadership role as Head of Analytics and Reporting.
 
 In addition to my professional pursuits, I also volunteer as a data analyst at Stichting Felice, where I leverage my skills and experience to make a positive impact on parents that have lost their child. Stichting Felice helped my wife and me when we lost our son Tijn.
 
