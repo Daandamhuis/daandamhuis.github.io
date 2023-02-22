@@ -23,46 +23,6 @@ To use PyTabular, you first need to install the library by running `pip install 
 
 PyTabular is a powerful tool for generating documentation for Power BI datasets, making it easy to understand and share the structure and contents of a dataset. It can save time and improve the efficiency of data analysis by providing a clear and concise document that describes the dataset.
 
-### Python Syntax
-
-```python
-import pytabular
-import logging
-
-logger = logging.getLogger("PyTabular")
-model = pytabular.Tabular(f"{SERVER};Catalog={INITIAL_CATALOG}")
-
-docs = pytabular.ModelDocumenter(model)
-docs.save_documentation()
-```
-
-### Power Query
-
-```powerquery
-let
-    Source = Sql.Database("sql-stichd-dwh-dev.database.windows.net", "sqldb-DWH"),
-    dim_vw_Date = Source{[Schema="dim",Item="vw_Dates"]}[Data]
-in
-    dim_vw_Date
-```
-
-### DAX
-
-```dax
-SUMX (
-   VALUES ( 'vw_TracksideF1_Item'[stichd_UnitListPrice] ),
-   'vw_TracksideF1_Item'[stichd_UnitListPrice] * [msr_trns_quantity]
-)
-```
-
-### SQL Server
-
-```sql
-select *
-from [dim].[vw_Dates]
-where [Year]  >= 2020
-```
-
 ## Adventure Works
 
 The Adventure Works dataset is a collection of data related to a fictional company called Adventure Works. It includes information such as sales data, customer information, and product details. This dataset is commonly used for business intelligence and data analysis projects, as it provides a realistic and diverse set of data that can be used to test and develop analytical models. The dataset can be used to gain insights into the performance of the company and make informed business decisions. It is designed to be used with SQL Server and other Microsoft technologies, and is available in both relational and OLAP formats.

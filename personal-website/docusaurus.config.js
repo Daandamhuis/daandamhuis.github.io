@@ -1,4 +1,5 @@
 // @ts-check
+∏
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
@@ -15,33 +16,16 @@ const config = {
   favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: "daandamhuis", // Usually your GitHub org/user name.
   projectName: "daandamhuis.github.io", // Usually your repo name.
   deploymentBranch: "gh-pages",
   trailingSlash: false,
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
   },
-  plugins: [
-    async function myPlugin(context, options) {
-      return {
-        name: "docusaurus-tailwindcss",
-        configurePostCss(postcssOptions) {
-          // Appends TailwindCSS and AutoPrefixer.
-          postcssOptions.plugins.push(require("tailwindcss"));
-          postcssOptions.plugins.push(require("autoprefixer"));
-          return postcssOptions;
-        },
-      };
-    },
-  ],
-
+  plugins: [],
   presets: [
     [
       "classic",
@@ -49,15 +33,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          //editUrl: 'https://github.com/daandamhuis/daandamhuis.github.io/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          //editUrl: 'https://github.com/daandamhuis/daandamhuis.github.io/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -81,38 +59,34 @@ const config = {
             type: "doc",
             docId: "getting-started",
             position: "left",
-            label: "Adventure Works",
+            label: "PyTabular",
           },
+          { to: "/who-am-i", label: "About Me", position: "left" },
           {
             href: "https://linkedin.com/in/daandamhuis/",
             label: "LinkedIn",
             position: "right",
           },
-          { to: "/who-am-i", label: "About Me", position: "left" },
           {
             href: "https://github.com/daandamhuis/",
             label: "GitHub",
             position: "right",
-          },
+          }
         ],
       },
       footer: {
         style: "dark",
         links: [
           {
-            title: "Community",
+            title: "Social",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://twitter.com/daandamhuis",
+              },
+              {
+                label: "LinkedIn",
+                href: "https://linkedin.com/in/daandamhuis",
               },
             ],
           },
@@ -125,7 +99,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/daandamhuis",
               },
             ],
           },
@@ -135,7 +109,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ["dax", "powerquery", "sql"],
+        additionalLanguages: ["dax", "powerquery"],
       },
     }),
 };
