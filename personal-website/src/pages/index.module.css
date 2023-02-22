@@ -3,24 +3,41 @@
  * and scoped locally.
  */
 
- .heroBanner {
-   background-image: url(“/static/img/banner-bg.webp”);
-   background-repeat: no-repeat;
-   background-position: center;
-   padding: 4rem 0;
-   text-align: left;
-   position: relative;
-   overflow: hidden;
- }
- 
- @media screen and (max-width: 996px) {
-   .heroBanner {
-     padding: 2rem;
-   }
- }
- 
- .buttons {
-   display: flex;
-   align-items: center;
-   justify-content: center;
- }
+.container:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-image: url("/img/banner-bg.webp");
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: cover;
+}
+
+.container { 
+  position: relative;
+}
+
+.heroBanner {
+  background: None;
+  padding: 4rem 0;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
