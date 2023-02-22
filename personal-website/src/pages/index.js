@@ -15,13 +15,11 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs">
-            Get Started with PyTabular ⏱️
+          <Link className="button button--secondary button--lg" to="/docs">
+            Get Started with PyTabular 📚
           </Link>
         </div>
-      </div>
+        </div>
     </header>
   );
 }
@@ -32,7 +30,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Personal website of Daan Damhuis with his CV, Blogposts and a Guide for using PyTabular and Docusaurus to generate documentation for Tabular / Power BI Datasets.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

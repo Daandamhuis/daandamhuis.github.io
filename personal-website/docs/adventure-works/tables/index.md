@@ -1,10 +1,9 @@
 ---
 sidebar_position: 2
 sidebar_label: Tables
+title: Tables
 description: This page contains all columns with tables for Model, including the description, and technical details.
 ---
-
-# Tables Model
 ### Customer
 **Description**: 
 > No Description available
