@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpersonal_website=self.webpackChunkpersonal_website||[]).push([[4682],{3061:e=>{e.exports=JSON.parse('{"label":"Power BI","permalink":"/blog/tags/power-bi","allTagsPath":"/blog/tags","count":3}')}}]);
