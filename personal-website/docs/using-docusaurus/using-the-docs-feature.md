@@ -32,7 +32,7 @@ docs.save_documentation()
 ```
 
 ### Power BI Premium (Per User)
-The code snippet you provided is for connecting to a Power BI dataset using an OAuth2 service principal for authentication. This method only works for Premium (per User) workspaces and XMLA endpoints need to be enabled for it to work. It is recommended to create a Service Principal that you can use to authenticate. This service principal needs to be given access *admin rights* in the Workspace.
+This code snippet is for connecting to a Power BI dataset using an OAuth2 service principal for authentication. This method only works for Premium (per User) workspaces and XMLA endpoints need to be enabled for it to work. It is recommended to create a Service Principal that you can use to authenticate. This service principal needs to be given access *admin rights* in the Workspace.
 
 ```python
 USER_ID = 'user:<App Id>'
