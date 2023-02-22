@@ -3,8 +3,7 @@
 * and scoped locally.
 */
 
-
-.bg-wrapper { 
+.bg-wrapper {
   position: relative;
 }
 
@@ -24,11 +23,11 @@
 }
 
 .heroBanner {
-  background: None;
   padding: 4rem 0;
   text-align: left;
   position: relative;
   overflow: hidden;
+  color: black;
 }
 
 @media screen and (max-width: 996px) {
