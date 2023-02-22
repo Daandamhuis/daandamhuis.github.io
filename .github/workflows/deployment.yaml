@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: personal-website
+        working-directory: 'personal-website'
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
