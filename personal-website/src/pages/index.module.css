@@ -4,7 +4,7 @@
  */
 
  .heroBanner {
-   background-image: url(“static/img/banner-bg.webp”);
+   background-image: url(“/static/img/banner-bg.webp”);
    background-repeat: no-repeat;
    background-position: center;
    padding: 4rem 0;
