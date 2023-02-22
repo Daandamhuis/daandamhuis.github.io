@@ -3,8 +3,6 @@ sidebar_position: 1
 title: Measures
 description: This page contains all measures for the Model model, including the description, format string, and other technical details.
 ---
-
-# Measures for Model
 ## Other
 ### Sales
 **Description**:

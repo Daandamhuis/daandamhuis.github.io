@@ -3,20 +3,6 @@
  * and scoped locally.
  */
 
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,700');
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Abril Fatface', serif;
-}
-
-:root {
-  --ifm-font-family-base: 'Roboto';
-}
 
 .heroBanner {
   padding: 4rem 0;
@@ -35,28 +21,4 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-@media screen and (max-width: 996px) {
-  :root {
-    --ifm-font-size-base: 18px;
-  }
-
-  article header h1 {
-    font-size: 1.5rem !important;
-  }
-
-  .hero .hero__title {
-    font-size: 2.5rem;
-  }
-}
-
-@media screen and (min-width: 997px) {
-  :root {
-    --ifm-font-size-base: 17px;
-  }
-
-  article header h1 {
-    font-size: 2rem !important;
-  }
 }

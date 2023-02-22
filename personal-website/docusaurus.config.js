@@ -1,5 +1,4 @@
 // @ts-check
-∏
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
@@ -47,6 +46,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [{name: 'keywords', content: 'python programming, data analysis, power bi reports, analysis services modeling, data visualization, documenting power bi reports, pytabular libraries, resume/cv writing, data management, blogging on data-related topics, business intelligence tools, power bi dashboards, advanced analytics, data modeling, data cleaning and transformation, power bi data visualization, power query m language, dax formulas, data-driven decision making, data storytelling techniques'}],
       navbar: {
         title: "Daan Damhuis",
         logo: {
@@ -104,7 +104,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Daan Damhuis. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Daan Damhuis.`,
       },
       prism: {
         theme: lightCodeTheme,
