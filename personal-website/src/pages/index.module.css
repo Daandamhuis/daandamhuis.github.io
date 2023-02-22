@@ -25,7 +25,7 @@
 
 .heroBanner {
   position: relative;
-  min-height: 60vh;
+  min-height: 30vh;
   background-image: url("/img/banner-bg.webp");
   background-size: cover;
   display: flex;
@@ -34,7 +34,7 @@
 
 .heroBanner {
   padding: 4rem 0;
-  text-align: left;
+  text-align: cemter;
   position: relative;
   overflow: hidden;
   color: black;
