@@ -21,7 +21,7 @@ _Business Intelligence Consultant based in 's-Hertogenbosch region, ᴺᴸ._ <br
 [Twitter](https://twitter.com/daandamhuis/) 
 
 ---
-### 👩🏼‍💻 Engineering Experience
+### 🧑‍💻 Experience
 
 **Business Intelligence Consultant** at [stichd - PUMA SE Group](https://stichd.com/)  <br/>
 _(Jul 2019 - Present), ’s-Hertogenbosch, ᴺᴸ _ <br/>
