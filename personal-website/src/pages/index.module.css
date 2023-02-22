@@ -7,7 +7,7 @@
   position: relative;
 }
 
-.heroBanner::before {
+.heroBanner::after {
   content: "";
   background-size: cover;
   position: absolute;
