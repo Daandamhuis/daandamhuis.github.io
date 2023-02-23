@@ -1,0 +1,52 @@
+.work_experience {
+  display: flex;
+  align-items: left;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.work_experience_work_item {
+  display: flex;
+  align-items: center;
+}
+
+.work_experience_work_item:last-child {
+  margin-bottom: 0;
+}
+
+.work_experience_work_item_logo {
+  align-self: flex-start;
+  width: 75px;
+  height: 75px;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  margin-right: 1em;
+  object-fit: cover;
+}
+
+.work_experience_work_item_details {
+  flex: 1;
+}
+
+.work_experience_work_item_title {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.work_experience_work_item_company {
+  font-size: 0.8em;
+  font-weight: 300;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.work_experience_work_item_date {
+  font-size: 0.85em;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.work_experience_work_item_description {
+  font-size: 0.85em;
+  line-height: 1.4;
+}
