@@ -1,8 +1,12 @@
 .work_experience {
   display: flex;
-  align-items: left;
-  padding: 2rem 0;
+  align-items: center;
+  padding: 2.5rem 0;
   width: 100%;
+}
+
+.main {
+  width: 30%;
 }
 
 .work_experience_work_item {

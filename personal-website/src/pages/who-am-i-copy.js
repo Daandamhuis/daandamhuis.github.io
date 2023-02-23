@@ -1,6 +1,5 @@
 import React from "react";
 import clsx from "clsx";
-import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import WorkExperienceFeature from '@site/src/components/WorkExperience';
@@ -8,9 +7,11 @@ import WorkExperienceFeature from '@site/src/components/WorkExperience';
 import styles from "./index.module.css";
 
 function IntroductionSection() {
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx("hero hero--primary")}>
       <div className="container">
+      <p className="hero__title">{siteConfig.title}</p>
         <div className={styles.work_description}>
         <p>I am a Business Intelligence Consultant with many years of experience in Microsoft Stack. Passionate about data and its potential to drive business success, I excel in data analysis, visualization, and learning the in and outs of machine learning. With a proven track record of delivering effective BI solutions to clients, I am constantly seeking new challenges and opportunities to grow in my field. My ambition is to take on a leadership role as Head of Data & Analytics.</p>
         <p>In addition to my professional pursuits, I also volunteer as a data analyst at Stichting Felice, where I leverage my skills and experience to make a positive impact on parents that have lost their child. Stichting Felice helped my wife and me when we lost our son Tijn.</p>
@@ -29,8 +30,8 @@ export default function Home() {
         title={`${siteConfig.title}`}
         description="Personal website of Daan Damhuis with his CV, Blogposts and a Guide for using PyTabular and Docusaurus to generate documentation for Tabular / Power BI Datasets."
       >
-        <IntroductionSection />
         <main>
+          <IntroductionSection />
           <WorkExperienceFeature />
         </main>
       </Layout>
