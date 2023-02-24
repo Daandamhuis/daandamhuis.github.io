@@ -1,8 +1,12 @@
 import React from "react";
 import clsx from "clsx";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
+import useDocusaurusContext  from "@docusaurus/useDocusaurusContext";
 import WorkExperienceFeature from '@site/src/components/WorkExperience';
+import VolunteeringFeature   from '@site/src/components/VolunteeringSection';
+import EducationFeature   from '@site/src/components/EducationSection';
+import TOCInline from '@theme/TOCInline';
+
 
 import styles from "./index.module.css";
 
@@ -11,7 +15,7 @@ function IntroductionSection() {
   return (
     <header className={clsx("hero hero--primary")}>
       <div className="container">
-      <p className="hero__title">{siteConfig.title}</p>
+      <h1 className="hero-about">{siteConfig.title}</h1>
         <div className={styles.work_description}>
         <p>I am a Business Intelligence Consultant with many years of experience in Microsoft Stack. Passionate about data and its potential to drive business success, I excel in data analysis, visualization, and learning the in and outs of machine learning. With a proven track record of delivering effective BI solutions to clients, I am constantly seeking new challenges and opportunities to grow in my field. My ambition is to take on a leadership role as Head of Data & Analytics.</p>
         <p>In addition to my professional pursuits, I also volunteer as a data analyst at Stichting Felice, where I leverage my skills and experience to make a positive impact on parents that have lost their child. Stichting Felice helped my wife and me when we lost our son Tijn.</p>
@@ -33,6 +37,8 @@ export default function Home() {
         <main>
           <IntroductionSection />
           <WorkExperienceFeature />
+          <VolunteeringFeature />
+          <EducationFeature />
         </main>
       </Layout>
     );

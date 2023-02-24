@@ -26,7 +26,6 @@
   z-index: 100;
 }
 
-
 .heroBanner {
   position: relative;
   min-height: 30vh;
@@ -35,6 +34,11 @@
   display: flex;
 
 }
+
+.hero-about {
+  font-size: 200%;
+}
+
 
 .heroBanner {
   padding: 4rem 0;

@@ -110,6 +110,7 @@ export default function WorkExperienceFeature() {
   return (
     <section className={styles.work_experience}>
       <div className="container">
+        <h1>Work Experience</h1>
         <div className="row">
           {ExperienceList.map((props, idx) => (
             <Feature key={idx} {...props} />
