@@ -29,6 +29,7 @@
 .heroBanner {
   position: relative;
   min-height: 30vh;
+  background-image: url("/img/banner.webp");
   background-size: cover;
   display: flex;
 
