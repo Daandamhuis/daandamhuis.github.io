@@ -40,7 +40,7 @@ function Feature({ImgSrc, url, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <img src={ImgSource} />
+        <img src={ImgSrc} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3><a href={url}>{title}</a></h3>
