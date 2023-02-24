@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Blog',
-    url: '/blog'
+    url: '/blog',
     ImgSrc: require('@site/static/img/work (1).png').default,
     description: (
       <>
