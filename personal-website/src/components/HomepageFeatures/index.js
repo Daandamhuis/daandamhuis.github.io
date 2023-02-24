@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Blog',
-    url: './blog',
+    url: '/blog',
     ImgSrc: require('@site/static/img/work (1).png').default,
     description: (
       <>
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'PyTabular',
-    url: './docs',
+    url: '/docs',
     ImgSrc: require('@site/static/img/mind (1).png').default,
     description: (
       <>
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Who am I',
-    url: './about-me',
+    url: '/who-am-i',
     ImgSrc: require('@site/static/img/who-am-i (1).png').default,
     description: (
       <>
