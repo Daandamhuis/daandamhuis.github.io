@@ -14,6 +14,7 @@ const ExperienceList = [
       <>
         <ul>
           <li>Major: IT & Business - Bridge the Gap between the Business and IT</li>
+          <li>Minor: IT & Lifestyle - The goal for this minor was to make the invisible visible with a combination of Art and Technology.</li>
           <li>Minor: ERP & Business Intellingence - Learning how an ERP works and how you can use it's data for reporting and analysis the data.</li>
         </ul>
       </>
@@ -28,7 +29,7 @@ const ExperienceList = [
     WorkLocation: 'Eindhoven, ᴺᴸ',
     description: (
       <>
-        <p>This education focusses on managing IT environments.</p>
+        <p>This education focusses on managing IT environments. This includes Servers and Virtual Machines, Network Planning, Cisco switches and routers and applications like and ERP.</p>
       </>
     )
   }

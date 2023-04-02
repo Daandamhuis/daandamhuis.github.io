@@ -28,7 +28,7 @@ const ExperienceList = [
     WorkLocation: '’s-Hertogenbosch, ᴺᴸ',
     description: (
       <>
-        <p>At Dobotex, I was part of a team that was focused on improving the company's data management and analysis capabilities. One of our first projects was to convert Multidimensional Models into Tabular Models. This involved re-organizing and simplifying the data structure to make it more efficient for analysis and improve performance.</p>
+        <p>At Dobotex (currently known as stichd), I was part of a team that was focused on improving the company's data management and analysis capabilities. One of our first projects was to convert Multidimensional Models into Tabular Models. This involved re-organizing and simplifying the data structure to make it more efficient for analysis and improve performance.</p>
         <p>With the success of the first project, we moved on to creating Global Reports, which provided valuable insights into company-wide operations and performance. This helped to identify areas of improvement and support decision-making.</p>
         <p>As we were making progress with the data analysis, we realized that we could also help our customers by providing them with insights into their shopfloor operations. So, our next project was to create a model that gives insights into the shopfloor of our customers, which helped to improve customer satisfaction and optimize operations.</p>
         <p>Overall, our projects at Dobotex allowed us to deliver valuable insights and support decision-making, which helped the company to improve its performance and meet the needs of its customers.</p>
@@ -75,10 +75,10 @@ const ExperienceList = [
     )
   },
   {
-    title: 'Teamlead',
+    title: 'Team Lead',
     ImgSrc: require('@site/static/img/logo-about-me/1519856999443.jpg').default,
     CompanyName: 'PLUS van Doornmalen',
-    Website: 'https://stichd.com/',
+    Website: 'https://plus.nl/',
     Period: 'Feb 2008 - Oct 2014',
     WorkLocation: 'Eersel, ᴺᴸ',
     description: (
